@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'NunitoSans-ExtraLight';
+    src: url('NunitoSans-ExtraLight.ttf');
+    src: url('NunitoSans-ExtraLight.ttf') format('embedded-opentype'),
+}
+header, aside, article, footer {
+    font-family: 'NunitoSans-ExtraLight';
+}
+header a, aside a {
+    text-decoration: none;
+    color: orangered;
+}
+body {
+    height: 1200px;
+    background: rgb(30,30,30);
+    margin: 0;
+    padding: 0;
+}
+header {
+    
+    height: 100px;
+    width: 100%;
+    background: rgb(30,30,30);
+    border-bottom: solid white 1px;
+}
+header h1, header h2 {
+    color: orangered;
+    margin: 0;
+    text-align: center;
+}
+header h2 {
+    font-size: 40px;
+}
+main {
+    height: 950px;
+    background: green;
+    width: 100%;
+    display: flex;
+}
+aside {
+    height: 100%;
+    background: rgb(30,30,30);
+    width: 25%;
+    box-sizing: border-box;
+    border-right: solid 1px white;
+    color: orangered;
+}
+aside h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+article {
+    height: 100%;
+    background: grey;
+    width: 75%;
+}
+footer {
+    height: 150px;
+    background: rgb(30,30,30);
+    border-top: solid white 1px;
+}
+aside h1 {
+    width: 100%;
+    text-align: center;
+}
+li {
+    width: 100%;
+    border-top: solid white 1px;
+    list-style: none;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    transition: 0.5s;
+}
+li:hover {
+    background: white;
+}
+#lastLi {
+    border-bottom: solid 1px white;
+}
