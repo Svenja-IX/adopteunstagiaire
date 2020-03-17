@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'NunitoSans-ExtraLight';
-    src: url('NunitoSans-ExtraLight.ttf');
-    src: url('NunitoSans-ExtraLight.ttf') format('embedded-opentype'),
+    src: url('styles/NunitoSans-ExtraLight.ttf');
+    src: url('styles/NunitoSans-ExtraLight.ttf') format('embedded-opentype'),
 }
 header, aside, article, footer {
     font-family: 'NunitoSans-ExtraLight';
