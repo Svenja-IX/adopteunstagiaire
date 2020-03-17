@@ -9,6 +9,7 @@ header, aside, article, footer {
 header a, aside a {
     text-decoration: none;
     color: orangered;
+    transition: 0.5s;
 }
 header a:hover {
     transition: 0.5s;
@@ -17,6 +18,11 @@ header a:hover {
 aside a:hover {
     transition: 0.5s;
     color: black;
+}
+article a {
+    text-decoration: none;
+    color: rgb(30,30,30);
+    transition: 0.5s;
 }
 body {
     height: 1200px;
@@ -80,14 +86,26 @@ article {
     background: grey;
     width: 85%;
 }
-article h1 {
-    margin: 0;
-    padding: 35px;
+article figure {
+    height: 125px;
+    width: 125px;
+    background:rgb(30,30,30);
+    display: inline-flex;
+    justify-content: space-between 10px;
+    padding: 0px;
+    margin-left: 5.35%;
+    margin-right: 5.35%;
+    margin-bottom: 3%;
+    margin-top: 3.5%;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: 0.5s;
+    border: orangered solid 2px;
 }
-article p {
-    margin: 0;
-    padding: 35px;
-    font-size: 30px;
+article figure:hover {
+    background: orangered;
+    border: white solid 2px;
+    transition: 0.5s;
 }
 footer {
     height: 150px;
