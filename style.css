@@ -36,26 +36,24 @@ header h1 {
     margin: 0;
     text-align: center;
 }
-#adopte-button {
-    width: 100%;
-    display: flex;
-    color: orangered;
+header h2 {
+    text-align: center;
 }
-#adopte-button h2:nth-child(1) {
-    width: auto;
-    margin: auto;
+.btn-primary {
+    background-color: orangered;
+    border-color: black;
+    transition: 0.5s;
 }
-#button-login h2 {
-    width: auto;
-    position: absolute;
-    right: 60px;
-    top: 68px;
+.btn-primary:hover {
+    background-color: grey;
+    border-color: black;
+    transition: 0.5s;
 }
-#button-login img {
-    width: 60px;
-    height: 60px;
-    position: absolute;
-    right: 0;
+.btn-primary:focus {
+    background-color: white;
+    color: black;
+    border-color: black;
+    box-shadow: none;
 }
 main {
     height: 950px;
@@ -119,3 +117,5 @@ li:hover {
 #lastLi {
     border-bottom: solid 1px white;
 }
+
+
